@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+    <head>
+        <title>Webshop</title>
+    </head>
+<body>
+    <header  class="header">
+<nav>
+  <marquee direction="right" behavior="alternate">  <h4>WEBSHOP</h4></marquee>
+   <h1> 👩🏻‍💻ELECTRONICS</h1> 
+  <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact</li>
+    </ul>
+</nav></header>
+<div class="searchbar">
+    <input placeholder="search" >
+</div>
+
+    <main id="layout">
+<section class=" container">
+   <div class="box"> <img src="ig1.jpg"  width="150px" height="120px" alt=""><p><h3>Laptops</h3>$.15000</p></div>
+   <div class="box"> <img src="ig7.jpg"  width="150px" height="120px" alt=""><p><h3>Headphones</h3>$.5000</p></div>
+   <div class="box"> <img src="ig3.jpg"  width="150px" height="120px" alt=""><p><h3>Smartphones</h3>$.10000</p></div>
+   <div class="box"> <img src="ig4.jpg"  width="150px" height="120px" alt=""><p><h3>LG TV</h3>$.25000</p></div>
+   <div class="box"> <img src="ig5.jpg"  width="150px" height="120px" alt=""><p><h3>Smartwatch</h3>$.7000</p></div>
+   <div class="box"> <img src="ig6.jpg"  width="150px" height="120px" alt=""><p><h3>Keyboard</h3>$.8000</p></div>
+</section>
+<section class="container2">
+    <div >
+        <h1 class="new">About Us</h1>
+        <p><h2>"People are craving this great progress in electronics, going after computers, the Internet, etc. It's a giant progress technologically. But they must have a balance of soul, a balance for human beauty. That means art has an important role." "👩🏻‍💻  Electronics was something I could always fall back on when I needed food on the table." "Each of us is now electronically connected to the globe, and yet we feel utterly alone." </h2></p>
+    </div>
+</section></main>
+<div class="footer">
+    Contact us for more ordering !!! <a href="https://www.meesho.com/electronics/pl/45g">visit</a>
+<button>Explore Now!</button>
+</div>
+</body>
+</html>
+<style>
+    *{
+        margin: 0;
+        padding-top: 0;
+       cursor: pointer;
+    }
+nav{
+    background-color: lightblue;
+    
+}
+ul,h4,li ,h1{
+display: inline-flex;
+}
+ li{
+    color: white;
+    opacity: 0.7;
+    padding: 15px;
+    padding-left: 30px;
+}
+li:hover{
+    color: black;
+    text-transform: uppercase;
+    opacity: 0.9;
+    font-weight: bold;
+}
+h1,h4:hover{
+font-weight: bolder;
+color: purple;
+text-transform:uppercase;
+text-shadow: 0px 0px 2px white;
+}
+ ul {
+    margin-left: 50%;
+ }
+.header{
+  border: 3px solid rgb(32, 167, 212);  
+}
+.searchbar{
+    padding: 15px;
+    text-align: center;
+    background-color: lightblue;
+    border: 3px solid rgb(32, 167, 212); 
+}
+input{
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 3px 1px black;
+}
+::placeholder{
+   padding-left: 30px;
+}
+.container{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px ;
+box-sizing: border-box;
+border: 3px solid rgb(32, 167, 212) ;
+  row-gap: 100px ;
+  column-gap: 100px;
+  padding: 60px;
+ 
+  background-color: lightblue;
+align-items: center;
+
+}
+img{
+padding: 5px;
+}
+.box{
+    border: 2px solid black;
+    width: 160px;
+    text-align: center;
+   }
+   .container2{
+box-sizing: border-box;
+border: 3px solid rgb(32, 167, 212) ;
+background-color: lightblue;
+   }
+   #layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+h2{
+    padding: 30px;
+    text-align: center;
+    font-weight: 600;
+    font-family: cursive;
+}
+h2::selection{
+color: white;
+}
+.new{
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.footer{
+    background-color: lightblue;
+    border: 3px solid rgb(32, 167, 212) ;
+    
+    }
+    button{
+        padding: 5px;
+        margin-bottom: 7px; 
+       margin-top: 7px;
+       margin-left: 750px;
+      border-radius: 50%;
+      width: 10%;
+background-color: brown;
+color: beige;
+    }
+    button:hover{
+        opacity: 0.7;
+    }
+</style>
